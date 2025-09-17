@@ -1,0 +1,33 @@
+site_name: AmagZ的小站
+site_url: https://amagz.com  # 网站最终部署的URL
+site_author: AmagZ  # 作者信息
+
+nav:
+    - Home: index.md
+    - 一些乐评: yueping.md
+    - 一些摄影: photo.md
+
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.indexes
+  palette:
+    - scheme: default
+      primary: blue grey
+      accent: blue grey
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to dark mode
+    - scheme: slate
+      primary: blue grey
+      accent: blue grey
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode
+
+
+
+copyright: Copyright &copy; 2025 AmagZ 
